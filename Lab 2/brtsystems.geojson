@@ -1,0 +1,584 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Calgary",
+        "systemName": "MAX",
+        "system-length": 56.03,
+        "brtStandard": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0720748901367,
+          51.04894863380694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-symbol": "",
+        "marker-size": "medium",
+        "Name": "Gatineau",
+        "systemName": "Rapibus",
+        "system-length": 12,
+        "brtStandard": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.72395324707031,
+          45.43773100556224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Missisauga",
+        "systemName": "Transitway",
+        "system-length": 18,
+        "brtStandard": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6457290649414,
+          43.59021392903945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#cd7f32",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Ottawa",
+        "systemName": "Transitway",
+        "system-length": 58.89,
+        "brtStandard": "bronze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.71468353271484,
+          45.413394446947535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Winnipeg",
+        "systemName": "RT",
+        "system-length": 3.6,
+        "brtStandard": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.16720581054688,
+          49.88490207132426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#8B0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Quebec City",
+        "systemName": "Metrobus",
+        "system-length": 59.55,
+        "brtStandard": "Not BRT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2356948852539,
+          46.82731489926434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#cd7f32",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "York Region",
+        "systemName": "VIVA",
+        "system-length": 37.5,
+        "brtStandard": "bronze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43904876708984,
+          43.880077621969036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffd700",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Albuquerque",
+        "systemName": "ART",
+        "system-length": 27,
+        "brtStandard": "gold"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64566040039062,
+          35.092945313732635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Arlington",
+        "systemName": "Metroway",
+        "system-length": 11,
+        "brtStandard": "Not BRT",
+        "marker-color": "#8B0000",
+        "marker-size": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.06007957458496,
+          38.86116445552303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cleveland",
+        "system-length": 11,
+        "systemName": "HealthLine",
+        "brtStandard": "silver",
+        "marker-color": "#C0C0C0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69021606445312,
+          41.50549203014924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Eugene",
+        "system-length": 19,
+        "systemName": "EmX",
+        "brtStandard": "bronze",
+        "marker-color": "#cd7f32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.09528350830078,
+          44.050089820756796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fort Collins",
+        "system-length": 8,
+        "systemName": "MAX BRT",
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07186889648438,
+          40.54980899258771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hartford County",
+        "systemName": "CTFastrak",
+        "system-length": 15,
+        "brtStandard": "silver",
+        "marker-color": "#C0C0C0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6906967163086,
+          41.764653945369396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Las Vegas",
+        "systemName": "MAX",
+        "system-length": 63,
+        "brtStandard": "basic",
+        "marker-symbol": "",
+        "marker-color": "#2f4f4f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.15457153320312,
+          36.16892253622743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Los Angeles",
+        "systemName": "Metro Orange Line",
+        "system-length": 29,
+        "brtStandard": "bronze",
+        "marker-color": "#cd7f32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.22937011718749,
+          34.05948596794815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Miami",
+        "system-length": 34,
+        "systemName": "South Miami-Dade Busway",
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2001953125,
+          25.798654774824335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New York",
+        "systemName": "Select Bus Service",
+        "system-length": 102,
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98948669433594,
+          40.73581157695217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Orlando",
+        "system-length": 5,
+        "systemName": "LYNX Lymmo",
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.375732421875,
+          28.545925723233477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pittsburgh",
+        "system-length": 30,
+        "systemName": "Pittsburgh BRT",
+        "brtStandard": "bronze",
+        "marker-color": "#cd7f32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.991455078125,
+          40.44119885143605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "San Bernardino",
+        "system-length": 26,
+        "systemName": "sbX",
+        "brtStandard": "bronze",
+        "marker-color": "#cd7f32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.301025390625,
+          34.10611931869012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Richmond",
+        "system-length": 26,
+        "systemName": "Pulse",
+        "brtStandard": "bronze",
+        "marker-color": "#cd7f32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43816375732422,
+          37.54171902364639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Los Angeles",
+        "system-length": 39,
+        "systemName": "Metro Silver Line",
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2568359375,
+          34.04640127074641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Guadalajara",
+        "system-length": 16,
+        "systemName": "Macrobus",
+        "brtStandard": "silver",
+        "marker-color": "#C0C0C0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.34976196289062,
+          20.67454769222922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mexico City",
+        "system-length": 140,
+        "systemName": "Metrobus",
+        "brtStandard": "silver",
+        "marker-color": "#C0C0C0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1131591796875,
+          19.435514339097825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mexico City Metro Area",
+        "system-length": 56,
+        "systemName": "Mexibus",
+        "brtStandard": "silver",
+        "marker-color": "#C0C0C0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.20242309570312,
+          19.471771302105118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Puebla",
+        "system-length": 32,
+        "systemName": "Silver",
+        "brtStandard": "bronze",
+        "marker-color": "#cd7f32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2122802734375,
+          19.062117883514652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Juarez",
+        "system-length": 25,
+        "systemName": "EcoViveBus",
+        "brtStandard": "basic",
+        "marker-color": "#2f4f4f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.48910522460938,
+          31.73225525308014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chihuahua",
+        "system-length": 22,
+        "systemName": "Vivebus",
+        "brtStandard": "basic",
+        "marker-color": "#2f4f4f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.07299804687499,
+          28.648415182054357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Monterrey",
+        "system-length": 30,
+        "systemName": "Ecovia",
+        "brtStandard": "silver",
+        "marker-color": "#C0C0C0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3106689453125,
+          25.673711282473864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pachuca",
+        "system-length": 17,
+        "systemName": "Tuzobus",
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7506103515625,
+          20.11010242300902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Guadalupe",
+        "system-length": 8,
+        "systemName": "TransMetro",
+        "brtStandard": "n/a",
+        "marker-color": "#7e7e7e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.51116943359375,
+          25.69846299326166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leon de los Aldama",
+        "system-length": 32,
+        "brtStandard": "basic",
+        "systemName": "Sistema Integrado de Transporte Optibus",
+        "marker-color": "#2f4f4f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67984008789062,
+          21.126778627645717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Acapulco",
+        "system-length": 16,
+        "brtStandard": "Not BRT",
+        "systemName": "Acabus",
+        "marker-color": "#8B0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.88151550292969,
+          16.866976511257572
+        ]
+      }
+    }
+  ]
+}
