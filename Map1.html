@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <title>November 2018 Migrant Caravan map</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    #info {
+      display: block;
+      position: relative;
+      margin: 0px auto;
+      width: 50%;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      background: #ee8a65;
+      font: 20px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+<div id='map'></div>
+<pre id="info"></pre>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiamFzb25hZDEyMyIsImEiOiJja2p1am5oZTEyYWZ4MnlxbHg4MWd4dDNlIn0.5eYHIg8hvmECM-pIGMwWyw'; // replace this with your access token
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/jasonad123/ckn26lg1e2jfm17rxiip63in2', // replace this with your style URL
+    center: [-102.406178, 22.943567],
+    zoom: 4
+  });
+
+  // code from the next step will go here
+  map.on('click', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {
+      layers: ['migrant-caravan-2018'] // replace this with the name of the layer
+    });
+
+    if (!features.length) {
+      return;
+    }
+
+    var feature = features[0];
+
+    var popup = new mapboxgl.Popup({ offset: [0, -15] })
+      .setLngLat(feature.geometry.coordinates)
+      .setHTML('<h3>' + feature.properties.name + ', ' + feature.properties.country +
+        '</h3><p>' + 'Caravan size: ' + feature.properties.caravansize +
+        '</p>' + '<p>' + 'Date: ' + feature.properties.date + '</p>' +
+        '<p>' + 'Description: ' + feature.properties.description +  '</p>' +
+      '<p><a href="' + feature.properties.source + '">' + 'Source' + '</a></p>')
+      .addTo(map);
+  });
+
+  document.getElementById('info').innerHTML = "November 2018 Migrant Caravan"
+</script>
+</body>
+</html>
