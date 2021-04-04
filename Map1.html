@@ -18,25 +18,31 @@
       bottom: 0;
       width: 100%;
     }
-    #info {
-      display: block;
+    .map-overlay {
       position: relative;
-      margin: 0px auto;
-      width: 50%;
-      height: 30px;
-      border: none;
-      border-radius: 5px;
-      font-size: 20px;
+      bottom: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.8);
+      margin: 40px;
+      font-family: Arial, sans-serif;
+      overflow: auto;
+      border-radius: 3px;
+    }
+    p {
+      font-size: 1em;
+      margin: 10px;
+      text-align: left;
+    }
+    h2 {
       text-align: center;
-      color: #fff;
-      background: #ee8a65;
-      font: 20px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     }
   </style>
 </head>
 <body>
 <div id='map'></div>
-<pre id="info"></pre>
+<div class="map-overlay" id="features">
+  <h2>Late 2018 Migrant Caravan</h2>
+</div>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoiamFzb25hZDEyMyIsImEiOiJja2p1am5oZTEyYWZ4MnlxbHg4MWd4dDNlIn0.5eYHIg8hvmECM-pIGMwWyw'; // replace this with your access token
   var map = new mapboxgl.Map({
@@ -49,7 +55,7 @@
   // code from the next step will go here
   map.on('click', function(e) {
     var features = map.queryRenderedFeatures(e.point, {
-      layers: ['migrant-caravan-2018'] // replace this with the name of the layer
+      layers: ['migrant-caravan'] // replace this with the name of the layer
     });
 
     if (!features.length) {
