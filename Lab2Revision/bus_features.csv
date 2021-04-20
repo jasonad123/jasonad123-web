@@ -1,0 +1,35 @@
+latitude,longitude,geometry,City,Length,System_Name,BRT Standard,marker-color,Daily_Passengers
+19.062117,-98.21228,Point,Puebla,32 km,Red Urban de Transporte Articulado (RUTA),Bronze,#cd7f32,251704	daily passengers
+28.545925,-81.375732,Point,Orlando,5 km,LYNX Lymmo,n/a,#7e7e7e,4475 daily passengers
+20.110102,-98.75061,Point,Pachuca,17 km,Tuzobus,n/a,#7e7e7e,114000	daily passengers
+49.884902,-97.167205,Point,Winnipeg,3.6 km,RT,n/a,#7e7e7e,166000	daily passengers
+40.549808,-105.071868,Point,Fort Collins,8 km,MAX BRT,n/a,#7e7e7e,3000 daily passengers
+45.437731,-75.723953,Point,Gatineau,12 km,Rapibus,n/a,#7e7e7e,N/a daily passengers
+25.698462,-100.511169,Point,Guadalupe,8 km,TransMetro,n/a,#7e7e7e,15000 daily passengers
+43.880077,-79.439048,Point,York Region,37.5 km,VIVA,Bronze,#cd7f32,9357 daily passengers
+25.798654,-80.200195,Point,Miami,34 km,South Miami-Dade Busway,n/a,#7e7e7e,2475 daily passengers
+46.827314,-71.235694,Point,Quebec City,59.55 km,Metrobus,Not BRT,#8B0000,85310 daily passengers
+16.866976,-99.881515,Point,Acapulco,16 km,Acabus,Not BRT,#8B0000,100000	daily passengers
+51.048948,-114.072074,Point,Calgary,56.03 km,MAX,n/a,#7e7e7e,7640 daily passengers
+36.168922,-115.154571,Point,Las Vegas,63 km,MAX,Basic BRT,#2f4f4f,34189 daily passengers
+28.648415,-106.072998,Point,Chihuahua,22 km,Vivebus,Basic BRT,#2f4f4f,127000	daily passengers
+41.764653,-72.690696,Point,Hartford County,15 km,CTFastrak,Silver,#C0C0C0,9674 daily passengers
+34.046401,-118.256835,Point,Los Angeles,39 km,Metro Silver Line,n/a,#7e7e7e,26179 daily passengers
+19.471771,-99.202423,Point,Mexico City Metro Area,56 km,Mexibus,Silver,#C0C0C0,380000	daily passengers
+34.059485,-118.22937,Point,Los Angeles,29 km,Metro Orange Line,Bronze,#cd7f32,26179	daily passengers
+25.673711,-100.310668,Point,Monterrey,30 km,Ecovia,Silver,#C0C0C0,100000	daily passengers
+38.861164,-77.060079,Point,Arlington-Alexandria,11 km,Metroway,Not BRT,#8B0000,1412	daily passengers
+44.050089,-123.095283,Point,Eugene,19 km,EmX,Bronze,#cd7f32,10000	daily passengers
+40.735811,-73.989486,Point,New York,102 km,Select Bus Service,n/a,#7e7e7e,305911	daily passengers
+20.674547,-103.349761,Point,Guadalajara,16 km,Macrobus,Silver,#C0C0C0,127000	daily passengers
+41.505492,-81.690216,Point,Cleveland,11 km,HealthLine,Silver,#C0C0C0,15000	daily passengers
+35.092945,-106.64566,Point,Albuquerque,27 km,ART,Gold,#ffd700,8100	daily passengers
+34.106119,-117.301025,Point,San Bernardino,26 km,sbX,Bronze,#cd7f32,2475	daily passengers
+45.413394,-75.714683,Point,Ottawa,58.89 km,Transitway,Bronze,#cd7f32,222000	daily passengers
+21.126778,-101.67984,Point,Leon de los Aldama,32 km,Sistema Integrado de Transporte Optibus,Basic BRT,#2f4f4f,220500	daily passengers
+37.541719,-77.438163,Point,Richmond,26 km,Pulse,Bronze,#cd7f32,N/a daily passengers
+43.590213,-79.645729,Point,Missisauga,18 km,Transitway,n/a,#7e7e7e,15100 daily passengers
+31.732255,-106.489105,Point,Juarez,25 km,EcoViveBus,Basic BRT,#2f4f4f,54000 daily passengers
+32.501707,-116.965398,Point,Tijuana,23 km,SITT,Not BRT,#8B0000,6933 daily passengers
+40.441198,-79.991455,Point,Pittsburgh,30 km,Pittsburgh BRT,Bronze,#cd7f32,41861 daily passengers
+19.435514,-99.113159,Point,Mexico City,140 km,Metrobus,Silver,#C0C0C0,1240000 daily passengers
